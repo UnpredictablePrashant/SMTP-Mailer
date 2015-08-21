@@ -31,7 +31,7 @@ server.login(sender, pas)
 os.system('cls')
 print ("You are logged in. Welcome ", sender)
 
-kilo = input("Enter the email address of the recepient: ")
+kilo = input("Enter the email address of the recipient: ")
 TO = [kilo]
 SUBJECT = input("Enter the subject: ")
 TEXT = input("Enter the text to be send: ")
